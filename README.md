@@ -3,9 +3,10 @@ This repository has the sole purpose of describing my personal attempt to turn a
 
 *Please note:*
 - *There are many alternatives and different approaches. There is no single 'right' approach.*
-- *Always make sure to comply with local electrical legislation.*
-- *Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels*
-- *Always take into account minimal temperatures to avoid legionella infections*
+> [!WARNING]
+> - *Always make sure to comply with local electrical legislation.*
+> - *Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels*
+> - *Always take into account minimal temperatures to avoid legionella infections*
 
 ## Hardware
 - 'Dumb' electrical boiler (eg. Bulex SDC 200 V Tri) 
