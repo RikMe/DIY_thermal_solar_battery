@@ -20,11 +20,13 @@ This repository has the sole purpose of describing my personal attempt to turn a
 - EVCC running as app in Home Assistant (updated to the latest version)
 ### Home Assistant apps
 - EVCC : https://github.com/evcc-io/hassio-addon
-- B2500 meter by Tom Quist : https://github.com/tomquist/b2500-meter
 ### Home Assistant integrations
 - Shelly (standard Home Assistant integration) 
 - HA-EVCC by Matthias Marquardt : https://github.com/marq24/ha-evcc
 
-## Configuration
-### Plumbing
-The Marstek app is not a textbook example of stability. It is however sufficient for initial configuration. Personally i don't use the app for anything after that. In order to access the modbus interface, the battery needs to have a wired connection to the network. No specfic settings are required for the modbus connection.
+## Sanitary installation
+### e-boiler in parallel with existing run trough heater (my set-up)
+*Please note:*
+- *Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels*
+
+<img width="1211" height="756" alt="image" src="https://github.com/user-attachments/assets/08f909d6-0970-43f8-a19f-76423f7dfd63" />
