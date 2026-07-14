@@ -93,3 +93,17 @@ The HA-EVCC integration by Matthias Marquardt (https://github.com/marq24/ha-evcc
 A very usefull thing to know is when the e-boiler is fully charged. This basically means the controller has switched one or more resistors on but the mechanical thermostat of the e-boiler has interupted the circuit.
 
 *Human logic: The e-boiler is 'at temperature' when at least one resistor is switched on, but the total power consumed has been 0W for at least one minute*
+
+'''
+#Boiler op temperatuur
+    - name: "boiler_op_temperatuur"
+      unique_id: boiler_op_temperatuur
+      delay_on:
+          minutes: 1
+      state: >
+          {% if is_state('binary_sensor.boiler_status', 'on') and (states('sensor.boiler_vermogen_totaal') | int < 10) %}
+            True
+          {% else %}
+            False
+          {% endif %}
+'''
