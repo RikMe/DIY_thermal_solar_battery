@@ -84,3 +84,7 @@ Once added into EVCC all standard EVCC functionalities are now usable with the e
 - Interaction with Home Batteries
 - Load management (eg. to interact with the Flemish 'capaciteitstarief')
 - ...
+
+### Home Assistant interactions
+The HA-EVCC integration by Matthias Marquardt (https://github.com/marq24/ha-evcc) exposed all relevant EVCC controls and sensors as HA entities
+#### Senor : e-boiler fully charged
