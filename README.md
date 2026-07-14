@@ -63,10 +63,13 @@ By controlling the 3 resistors seperately i can control the total power consumed
 *Please note:*
 - *Always make sure to comply with local electrical legislation.*
 
-Also single phase boilers can be controlled in the same way (with or without 3-way valve). Off course the total power consumed cannot have intermediate values.
+Also single phase boilers can be controlled in the same way (with or without 3-way valve). Off course the total power consumed cannot have intermediate values. This is a standard on-off controll pattern.
 
 - 0W (no resistors powered)
 - Full power: Typically 1600W of 2400W (1 resistor powered)
 
 <img width="1227" height="758" alt="image" src="https://github.com/user-attachments/assets/1b7cfd7f-f30d-46fc-8c29-df2fec932067" />
 
+## Software control
+This section assumes a working instance of Home Assistant with the control device (in my case Shelly PRO 4PM) already set-up. A basic knowledge of both Home Assistant and EVCC is assumed. Please refer to the specific documentation for relevant manuals.
+### Controlling the e-boiler trough EVCC
