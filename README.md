@@ -79,8 +79,8 @@ This section assumes a working instance of Home Assistant with the control devic
 ### Controlling the e-boiler trough EVCC
 Each individual resistor (when using a 3-phase model) or the main resistor (when using a single phase model) can be added into EVCC. When using Shelly controllers they can be loaded into EVCC either trough the Shelly template in EVCC or as a more generic Home Assistant Switch. 
 
-*Note:*
-- *If you want to use 'plans' with the e-boiler (ex. dynamic pricing) you should add the devices as a 'charger', not as as 'heating' device. For the moment charging plans are NOT available for heating devices in EVCC*
+> [!TIP]
+>If you want to use 'plans' with the e-boiler (ex. dynamic pricing) you should add the devices as a 'charger', not as as 'heating' device. For the moment charging plans are NOT available for heating devices in EVCC
 
 Once added into EVCC all standard EVCC functionalities are now usable with the e-boiler
 - Solar charging
@@ -92,14 +92,16 @@ Once added into EVCC all standard EVCC functionalities are now usable with the e
 ### Home Assistant interactions
 The HA-EVCC integration by Matthias Marquardt (https://github.com/marq24/ha-evcc) exposed all relevant EVCC controls and sensors as HA entities
 #### Group senor : e-boiler total power
-*Only needed for 3-phase e-boilers.*
+> [!NOTE]
+> Only needed for 3-phase e-boilers.
 
 Create a HA combination helper to sum up the power over all resistors.
 
 <img width="601" height="710" alt="image" src="https://github.com/user-attachments/assets/dbfa111b-f5be-4920-9351-425d85fc6493" />
 
 #### Group senor : e-boiler status
-*Only needed for 3-phase e-boilers.*
+> [!NOTE]
+> Only needed for 3-phase e-boilers.
 
 Create a HA group helper containing the 'enabled' signals from EVCC
 
