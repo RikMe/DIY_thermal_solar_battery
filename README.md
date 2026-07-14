@@ -95,7 +95,7 @@ A very usefull thing to know is when the e-boiler is fully charged. This basical
 *Human logic: The e-boiler is 'at temperature' when at least one resistor is switched on, but the total power consumed has been 0W for at least one minute*
 
 
-`#Boiler op temperatuur
+```#Boiler op temperatuur
     - name: "boiler_op_temperatuur"
       unique_id: boiler_op_temperatuur
       delay_on:
@@ -106,4 +106,4 @@ A very usefull thing to know is when the e-boiler is fully charged. This basical
           {% else %}
             False
           {% endif %}
-`
+```
