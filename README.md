@@ -2,12 +2,12 @@
 This repository has the sole purpose of describing my personal attempt to turn a standard electrical boiler into smart thermal storage. This smart storage can be used in conjuction with excess PV energy or dynamic pricing.
 
 > [!NOTE]
-> *There are many alternatives and different approaches. There is no single 'right' approach.*
+> There are many alternatives and different approaches. There is no single 'right' approach.
 
 > [!WARNING]
-> - *Always make sure to comply with local electrical legislation.*
-> - *Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels*
-> - *Always take into account minimal temperatures to avoid legionella infections*
+> - Always make sure to comply with local electrical legislation.
+> - Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels
+> - Always take into account minimal temperatures to avoid legionella infections
 
 ## Hardware
 - 'Dumb' electrical boiler (eg. Bulex SDC 200 V Tri) 
@@ -32,7 +32,7 @@ This repository has the sole purpose of describing my personal attempt to turn a
 ## Sanitary installation
 ### e-boiler in parallel with existing run trough heater (my set-up)
 > [!WARNING]
-> - *Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels*
+> - Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels
 
 This is my personal set-up. By controlling the motorized 3-way valve i'm able to choose the preferred heater (e-boiler or gas). By default I activate the e-boiler. Whenever i'm not sure there is sufficient hot water in the e-boiler the system falls back to gas. When used only in combination with excess PV, fall-back situations can occur during wintertime on rainy days.
 
@@ -40,7 +40,7 @@ This is my personal set-up. By controlling the motorized 3-way valve i'm able to
 
 ### Alternative: e-boiler in series with existing storage tank heater
 > [!WARNING]
-> - *Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels*
+> - Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels
 
 As an alternative for heaters with a storage tank, an e-boiler can be put in series. This way the water at cold inlet of the heater is already pre-heated. Best results are achieved when the setpoint of the e-boiler is higher than the setpoint of the existing heater.
 
@@ -49,8 +49,8 @@ As an alternative for heaters with a storage tank, an e-boiler can be put in ser
 ## Electrical installation
 ### 3-phase e-boiler with motorized 3-way valve and Shelly PRO 4PM (my set-up)
 > [!WARNING]
-> - *Always make sure to comply with local electrical legislation.*
-> - *NEVER (ever!) take any action that bypasses the internal thermostat or mechanical safety devices inside the e-boiler.*
+> - Always make sure to comply with local electrical legislation.
+> - NEVER (ever!) take any action that bypasses the internal thermostat or mechanical safety devices inside the e-boiler.
 
 In my personal set-up i choose for a 3-phase boiler. These boilers consist out of 3 smaller resistors (3x 800W in my set-up) instead of one bigger one (typically 1600W or 2400W). Since the load is resistive, there is no need for actual 3 shifted phases. When connecting the N conductor (in Y) I can safely power all 3 resistors from a single phase. 
 
@@ -64,8 +64,8 @@ By controlling the 3 resistors seperately i can control the total power consumed
 
 ### Alternative: single phase e-boiler without valve with Shelly PRO 2PM
 > [!WARNING]
-> - *Always make sure to comply with local electrical legislation.*
-> - *NEVER (ever!) take any action that bypasses the internal thermostat or mechanical safety devices inside the e-boiler.*
+> - Always make sure to comply with local electrical legislation.
+> - NEVER (ever!) take any action that bypasses the internal thermostat or mechanical safety devices inside the e-boiler.
 
 Also single phase boilers can be controlled in the same way (with or without 3-way valve). Off course the total power consumed cannot have intermediate values. This is a standard on-off controll pattern.
 
