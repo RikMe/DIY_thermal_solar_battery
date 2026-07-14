@@ -48,9 +48,9 @@ As an alternative for heaters with a storage tank, an e-boiler can be put in ser
 
 ## Electrical installation
 ### 3-phase e-boiler with motorized 3-way valve and Shelly PRO 4PM (my set-up)
-*Please note:*
-- *Always make sure to comply with local electrical legislation.*
-- *NEVER (ever!) take any action that bypasses the internal thermostat or mechanical safety devices inside the e-boiler.*
+> [!WARNING]
+> - *Always make sure to comply with local electrical legislation.*
+> - *NEVER (ever!) take any action that bypasses the internal thermostat or mechanical safety devices inside the e-boiler.*
 
 In my personal set-up i choose for a 3-phase boiler. These boilers consist out of 3 smaller resistors (3x 800W in my set-up) instead of one bigger one (typically 1600W or 2400W). Since the load is resistive, there is no need for actual 3 shifted phases. When connecting the N conductor (in Y) I can safely power all 3 resistors from a single phase. 
 
@@ -63,9 +63,9 @@ By controlling the 3 resistors seperately i can control the total power consumed
 <img width="1360" height="764" alt="image" src="https://github.com/user-attachments/assets/be6e80a1-93f0-4e43-8514-22847e25def3" />
 
 ### Alternative: single phase e-boiler without valve with Shelly PRO 2PM
-*Please note:*
-- *Always make sure to comply with local electrical legislation.*
-- *NEVER (ever!) take any action that bypasses the internal thermostat or mechanical safety devices inside the e-boiler.*
+> [!WARNING]
+> - *Always make sure to comply with local electrical legislation.*
+> - *NEVER (ever!) take any action that bypasses the internal thermostat or mechanical safety devices inside the e-boiler.*
 
 Also single phase boilers can be controlled in the same way (with or without 3-way valve). Off course the total power consumed cannot have intermediate values. This is a standard on-off controll pattern.
 
