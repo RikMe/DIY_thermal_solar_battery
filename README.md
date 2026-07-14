@@ -31,16 +31,16 @@ This repository has the sole purpose of describing my personal attempt to turn a
 
 ## Sanitary installation
 ### e-boiler in parallel with existing run trough heater (my set-up)
-*Please note:*
-- *Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels*
+> [!WARNING]
+> - *Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels*
 
 This is my personal set-up. By controlling the motorized 3-way valve i'm able to choose the preferred heater (e-boiler or gas). By default I activate the e-boiler. Whenever i'm not sure there is sufficient hot water in the e-boiler the system falls back to gas. When used only in combination with excess PV, fall-back situations can occur during wintertime on rainy days.
 
 <img width="1211" height="756" alt="image" src="https://github.com/user-attachments/assets/08f909d6-0970-43f8-a19f-76423f7dfd63" />
 
 ### Alternative: e-boiler in series with existing storage tank heater
-*Please note:*
-- *Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels*
+> [!WARNING]
+> - *Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels*
 
 As an alternative for heaters with a storage tank, an e-boiler can be put in series. This way the water at cold inlet of the heater is already pre-heated. Best results are achieved when the setpoint of the e-boiler is higher than the setpoint of the existing heater.
 
