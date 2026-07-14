@@ -5,6 +5,7 @@ This repository has the sole purpose of describing my personal attempt to turn a
 - *There are many alternatives and different approaches. There is no single 'right' approach.*
 - *Always make sure to comply with local electrical legislation.*
 - *Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels*
+- *Always take into account minimal temperatures to avoid legionella infections*
 
 ## Hardware
 - 'Dumb' electrical boiler (eg. Bulex SDC 200 V Tri) 
@@ -13,6 +14,7 @@ This repository has the sole purpose of describing my personal attempt to turn a
 - Home Assistant Green
 - Home Wizard P1 meter
 - Home network on the Unifi platform
+- Digital meters for both electricity and water
 - Shelly PRO4EM
 
 ## Software
@@ -37,5 +39,20 @@ This is my personal set-up. By controlling the motorized 3-way valve i'm able to
 *Please note:*
 - *Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels*
 
+As an alternative for heaters with a storage tank, an e-boiler can be put in series. This way the water at cold inlet of the heater is already pre-heated. Best results are achieved when the setpoint of the e-boiler is higher than the setpoint of the existing heater.
+
 <img width="1155" height="551" alt="image" src="https://github.com/user-attachments/assets/a6544fbb-89c1-4e79-ae56-4263e8a4af23" />
+
+## Electrical installation
+### 3-phase e-boiler with motorized 3-way valve and Shelly PRO 4PM (my set-up)
+*Please note:*
+- *Always make sure to comply with local electrical legislation.*
+
+<img width="1360" height="764" alt="image" src="https://github.com/user-attachments/assets/be6e80a1-93f0-4e43-8514-22847e25def3" />
+
+### Alternative: single phase e-boiler without valve with Shelly PRO 2PM
+*Please note:*
+- *Always make sure to comply with local electrical legislation.*
+
+<img width="1227" height="758" alt="image" src="https://github.com/user-attachments/assets/1b7cfd7f-f30d-46fc-8c29-df2fec932067" />
 
