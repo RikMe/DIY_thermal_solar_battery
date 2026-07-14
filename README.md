@@ -48,6 +48,7 @@ As an alternative for heaters with a storage tank, an e-boiler can be put in ser
 ### 3-phase e-boiler with motorized 3-way valve and Shelly PRO 4PM (my set-up)
 *Please note:*
 - *Always make sure to comply with local electrical legislation.*
+- *NEVER (ever!) take any action that bypasses the internal thermostat or mechanical safety devices inside the e-boiler.*
 
 In my personal set-up i choose for a 3-phase boiler. These boilers consist out of 3 smaller resistors (3x 800W in my set-up) instead of one bigger one (typically 1600W or 2400W). Since the load is resistive, there is no need for actual 3 shifted phases. When connecting the N conductor (in Y) I can safely power all 3 resistors from a single phase. 
 
@@ -62,6 +63,7 @@ By controlling the 3 resistors seperately i can control the total power consumed
 ### Alternative: single phase e-boiler without valve with Shelly PRO 2PM
 *Please note:*
 - *Always make sure to comply with local electrical legislation.*
+- *NEVER (ever!) take any action that bypasses the internal thermostat or mechanical safety devices inside the e-boiler.*
 
 Also single phase boilers can be controlled in the same way (with or without 3-way valve). Off course the total power consumed cannot have intermediate values. This is a standard on-off controll pattern.
 
@@ -88,3 +90,6 @@ Once added into EVCC all standard EVCC functionalities are now usable with the e
 ### Home Assistant interactions
 The HA-EVCC integration by Matthias Marquardt (https://github.com/marq24/ha-evcc) exposed all relevant EVCC controls and sensors as HA entities
 #### Senor : e-boiler fully charged
+A very usefull thing to know is when the e-boiler is fully charged. This basically means the controller has switched one or more resistors on but the mechanical thermostat of the e-boiler has interupted the circuit.
+
+*Human logic: The e-boiler is 'at temperature' when at least one resistor is switched on, but the total power consumed has been 0W for at least one minute*
