@@ -16,6 +16,7 @@ This repository has the sole purpose of describing my personal attempt to turn a
 - Home network on the Unifi platform
 - Digital meters for both electricity and water
 - Shelly PRO4EM
+- Motorized 3-way valve (eg. Honeywell VC4613)
 
 ## Software
 - Home assistant OS (updated to the latest version)
@@ -61,6 +62,11 @@ By controlling the 3 resistors seperately i can control the total power consumed
 ### Alternative: single phase e-boiler without valve with Shelly PRO 2PM
 *Please note:*
 - *Always make sure to comply with local electrical legislation.*
+
+Also single phase boilers can be controlled in the same way (with or without 3-way valve). Off course the total power consumed cannot have intermediate values.
+
+- 0W (no resistors powered)
+- Full power: Typically 1600W of 2400W (1 resistor powered)
 
 <img width="1227" height="758" alt="image" src="https://github.com/user-attachments/assets/1b7cfd7f-f30d-46fc-8c29-df2fec932067" />
 
