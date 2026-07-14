@@ -30,3 +30,10 @@ This repository has the sole purpose of describing my personal attempt to turn a
 - *Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels*
 
 <img width="1211" height="756" alt="image" src="https://github.com/user-attachments/assets/08f909d6-0970-43f8-a19f-76423f7dfd63" />
+
+### Alternative: e-boiler in series with existing storage tank heater
+*Please note:*
+- *Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels*
+
+<img width="1155" height="551" alt="image" src="https://github.com/user-attachments/assets/a6544fbb-89c1-4e79-ae56-4263e8a4af23" />
+
