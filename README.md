@@ -89,12 +89,22 @@ Once added into EVCC all standard EVCC functionalities are now usable with the e
 
 ### Home Assistant interactions
 The HA-EVCC integration by Matthias Marquardt (https://github.com/marq24/ha-evcc) exposed all relevant EVCC controls and sensors as HA entities
+#### Group senor : e-boiler total power
+*Only needed for 3-phase e-boilers.*
+
+Create a HA combination helper to sum up the power over all resistors.
+
+<img width="556" height="669" alt="image" src="https://github.com/user-attachments/assets/25e4f3f2-b33b-4aca-a1b6-4d2af8d2e163" />
+
 #### Group senor : e-boiler status
 *Only needed for 3-phase e-boilers.*
 
-Create a HA group helper containing the 'enabled' signales from EVCC
+Create a HA group helper containing the 'enabled' signals from EVCC
 
 *Human logic: The e-boiler is 'on' when at least one of the resistors is activated*
+
+<img width="558" height="346" alt="image" src="https://github.com/user-attachments/assets/bc993b25-b528-46e1-a86b-cfe196dd038e" />
+
 
 #### Template senor : e-boiler fully charged
 A very usefull thing to know is when the e-boiler is fully charged. This basically means the controller has switched one or more resistors on but the mechanical thermostat of the e-boiler has interupted the circuit.
