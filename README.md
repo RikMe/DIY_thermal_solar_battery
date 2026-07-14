@@ -1,8 +1,8 @@
 # Turning an electric boiler into a smart thermal solar battery
 This repository has the sole purpose of describing my personal attempt to turn a standard electrical boiler into smart thermal storage. This smart storage can be used in conjuction with excess PV energy or dynamic pricing.
 
-*Please note:*
-- *There are many alternatives and different approaches. There is no single 'right' approach.*
+> [!NOTE]
+> *There are many alternatives and different approaches. There is no single 'right' approach.*
 > [!WARNING]
 > - *Always make sure to comply with local electrical legislation.*
 > - *Always make sure to comply with good sanitary/plumbing practices (eg. overpressure valves, expansion vessels*
