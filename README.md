@@ -94,7 +94,7 @@ The HA-EVCC integration by Matthias Marquardt (https://github.com/marq24/ha-evcc
 
 Create a HA combination helper to sum up the power over all resistors.
 
-<img width="556" height="669" alt="image" src="https://github.com/user-attachments/assets/25e4f3f2-b33b-4aca-a1b6-4d2af8d2e163" />
+<img width="601" height="710" alt="image" src="https://github.com/user-attachments/assets/dbfa111b-f5be-4920-9351-425d85fc6493" />
 
 #### Group senor : e-boiler status
 *Only needed for 3-phase e-boilers.*
