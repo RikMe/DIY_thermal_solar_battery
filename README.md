@@ -77,3 +77,10 @@ Each individual resistor (when using a 3-phase model) or the main resistor (when
 
 *Note:*
 - *If you want to use 'plans' with the e-boiler (ex. dynamic pricing) you should add the devices as a 'charger', not as as 'heating' device. For the moment charging plans are NOT available for heating devices in EVCC*
+
+Once added into EVCC all standard EVCC functionalities are now usable with the e-boiler
+- Solar charging
+- Charging plans based on dynamic pricing
+- Interaction with Home Batteries
+- Load management (eg. to interact with the Flemish 'capaciteitstarief')
+- ...
