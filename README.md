@@ -103,8 +103,7 @@ Create a HA group helper containing the 'enabled' signals from EVCC
 
 *Human logic: The e-boiler is 'on' when at least one of the resistors is activated*
 
-<img width="558" height="346" alt="image" src="https://github.com/user-attachments/assets/bc993b25-b528-46e1-a86b-cfe196dd038e" />
-
+<img width="599" height="711" alt="image" src="https://github.com/user-attachments/assets/1995a69b-8999-40e9-a22c-d250370e43e5" />
 
 #### Template senor : e-boiler fully charged
 A very usefull thing to know is when the e-boiler is fully charged. This basically means the controller has switched one or more resistors on but the mechanical thermostat of the e-boiler has interupted the circuit.
