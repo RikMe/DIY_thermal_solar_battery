@@ -73,3 +73,7 @@ Also single phase boilers can be controlled in the same way (with or without 3-w
 ## Software control
 This section assumes a working instance of Home Assistant with the control device (in my case Shelly PRO 4PM) already set-up. A basic knowledge of both Home Assistant and EVCC is assumed. Please refer to the specific documentation for relevant manuals.
 ### Controlling the e-boiler trough EVCC
+Each individual resistor (when using a 3-phase model) or the main resistor (when using a single phase model) can be added into EVCC. When using Shelly controllers they can be loaded into EVCC either trough the Shelly template in EVCC or as a more generic Home Assistant Switch. 
+
+*Note:*
+- *If you want to use 'plans' with the e-boiler (ex. dynamic pricing) you should add the devices as a 'charger', not as as 'heating' device. For the moment charging plans are NOT available for heating devices in EVCC*
